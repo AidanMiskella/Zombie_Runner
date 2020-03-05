@@ -8,8 +8,8 @@ public class EnemyHealth : MonoBehaviour {
 
     public void TakeDamage(float damage) {
 
-        hitPoints = -damage;
-        if (hitPoints <= 0f) {
+        hitPoints -= damage;
+        if (hitPoints <= 0) {
 
             Destroy(gameObject);
             Debug.Log("DEAD");

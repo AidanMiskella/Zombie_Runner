@@ -1072,12 +1072,28 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1855327641, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: ammoSolt
+      value: 
+      objectReference: {fileID: 481300227}
     - target: {fileID: 2004505835, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: gameOverCanvas
       value: 
       objectReference: {fileID: 1859966313}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+--- !u!114 &481300227 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7015727418440710636, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+    type: 3}
+  m_PrefabInstance: {fileID: 481300226}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4d79194ba7c249d491ea3c1beabc510, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &585087737 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 7f114e6b62ad5134b9ba4e0a01ddc050,

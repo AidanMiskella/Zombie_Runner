@@ -182,6 +182,7 @@ GameObject:
   - component: {fileID: 2004505838}
   - component: {fileID: 2004505835}
   - component: {fileID: 1465758262597994785}
+  - component: {fileID: 7015727418440710636}
   m_Layer: 0
   m_Name: RigidBodyFPSController
   m_TagString: Untagged
@@ -344,8 +345,21 @@ MonoBehaviour:
   fpsCamera: {fileID: 2000000}
   zoomedOutFOV: 60
   zoomedInFOV: 20
-  zoomedOutSensitivity: 60
-  zoomedInSensitivity: 20
+  zoomedInSensitivity: 0.5
+  zoomedOutSensitivity: 2
+--- !u!114 &7015727418440710636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4d79194ba7c249d491ea3c1beabc510, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ammoAmount: 10
 --- !u!1 &3493591447116465715
 GameObject:
   m_ObjectHideFlags: 0

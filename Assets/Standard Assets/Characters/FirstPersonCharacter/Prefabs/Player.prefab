@@ -342,7 +342,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4d79194ba7c249d491ea3c1beabc510, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ammoAmount: 10
+  ammoSlots:
+  - ammoType: 0
+    ammoAmount: 10
+  - ammoType: 1
+    ammoAmount: 5
+  - ammoType: 2
+    ammoAmount: 20
 --- !u!114 &1746874064078051706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -380,6 +386,7 @@ MonoBehaviour:
   hitEffect: {fileID: 4364125479164845787, guid: 6849469c5b31240fe97b8d771205a7e5,
     type: 3}
   ammoSolt: {fileID: 7015727418440710636}
+  ammoType: 1
   timeBetweenShots: 2
 --- !u!1 &3493591447116465715
 GameObject:
@@ -447,6 +454,7 @@ MonoBehaviour:
   hitEffect: {fileID: 4364125479164845787, guid: 6849469c5b31240fe97b8d771205a7e5,
     type: 3}
   ammoSolt: {fileID: 7015727418440710636}
+  ammoType: 2
   timeBetweenShots: 0.1
 --- !u!114 &6260641769573671832
 MonoBehaviour:
@@ -467,6 +475,7 @@ MonoBehaviour:
   hitEffect: {fileID: 4364125479164845787, guid: 6849469c5b31240fe97b8d771205a7e5,
     type: 3}
   ammoSolt: {fileID: 7015727418440710636}
+  ammoType: 0
   timeBetweenShots: 0.25
 --- !u!1001 &1006698677027410373
 PrefabInstance:

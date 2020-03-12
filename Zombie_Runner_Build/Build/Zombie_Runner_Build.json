@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "6_Zombie_Runner",
+"productVersion": "0.1",
+"dataUrl": "Zombie_Runner_Build.data.unityweb",
+"wasmCodeUrl": "Zombie_Runner_Build.wasm.code.unityweb",
+"wasmFrameworkUrl": "Zombie_Runner_Build.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.2.21f1"
+}

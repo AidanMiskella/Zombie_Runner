@@ -34,6 +34,7 @@ public class WeaponZoom : MonoBehaviour {
     }
 
     private void ZoomIn() {
+
         zoomedIn = true;
         fpsCamera.fieldOfView = zoomedInFOV;
         fpsController.mouseLook.XSensitivity = zoomedInSensitivity;
@@ -41,6 +42,7 @@ public class WeaponZoom : MonoBehaviour {
     }
 
     private void ZoomOut() {
+
         zoomedIn = false;
         fpsCamera.fieldOfView = zoomedOutFOV;
         fpsController.mouseLook.XSensitivity = zoomedOutSensitivity;
